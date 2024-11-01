@@ -1,13 +1,13 @@
-quantidade_vendida = int(input("Quantos carros foram vendidos pelo funcionario?"))
-valor_vendido = int(input("quanto o funcionario vendeu?"))
+#Uma revendedora de carros usados paga a seus funcionários vendedores um salário fixo por mês, mais uma comissão também fixa de R$ 700,00 para cada carro vendido e mais 5% do valor das vendas por 
+#ele efetuadas. Escrever um algoritmo que leia o número de carros por ele vendidos, o valor total de suas vendas, o saláriofixo e o valor que ele recebe por carro vendido. Calcule e escreva o salário final do vendedor. 
 
-salario_fixo = 1500
+salarioFixo = int(input("Qual o salário fixo do vendedor? "))
+comissaoFixo = 700
+quantidadeCarrosVendidos = int(input("Quantos carros foram vendidos? "))
+totalComissaoFixo = comissaoFixo * quantidadeCarrosVendidos
 
-comissao = (quantidade_vendida*700)
+salarioSemComissao = float(salarioFixo + totalComissaoFixo)
+adicional_5 = salarioSemComissao * 0.05
+salarioFinal = salarioSemComissao + adicional_5
 
-comissao_do_valor_vendido = 0
-
-salario_total = (salario_fixo + comissao)
-
-print("O salário total será:", salario_total)
-print("A comissão será:", valor_vendido  85)
+print("O salário final do vendedor é: ", salarioFinal)
