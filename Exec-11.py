@@ -1,5 +1,5 @@
-c = float(input('insira a temperatura em celsius:'))
+f = float(input('insira a temperatura em Farenheit:'))
 
-f = ((c*9) / 5) + 32
+c = ((f-32) * 5/9) 
 
-print(f'A temperatura em graus Farenheit é: {f:.2f}')
+print(f'A temperatura em graus Farenheit é:', c)
