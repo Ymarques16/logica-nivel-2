@@ -1,6 +1,5 @@
-print("qual a quantidade de votos em branco?")
-input()
-print("qual a quantidade de votos nulos?")
-input()
-print("qual a quantidade de votos em válidos?")
-input()
+totalEleitores=int(input("qual o total de eleitores?"))
+votosBrancos=int(input("qual a quantidade de votos em branco?")
+votosValidos=int(input("qual a quantidade de votos nulos?")
+votosValidos=int(input("qual a quantidade de votos em válidos?")
+
