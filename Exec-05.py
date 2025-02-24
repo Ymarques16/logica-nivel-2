@@ -1,5 +1,5 @@
-base = int(input("qual é a base do triâgulo?"))
-altura = int(input("qual é a altura do triâgulo?"))
+base = int(input("qual é a base do retângulo?"))
+altura = int(input("qual é a altura do retângulo?"))
 
-resultado = (altura*base)/2
+resultado = (altura*base)
 print(resultado)
