@@ -6,4 +6,4 @@ if horaFinal < horaInicio:
     resultado = horaParcial1 + horaFinal
     print(resultado)
 else:
-   print("A partida durou:", horaFinal-horaInicio)
+   print("A partida durou:", horaFinal-horaInicio, "horas")
