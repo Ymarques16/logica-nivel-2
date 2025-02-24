@@ -1,3 +1,3 @@
 numero = int(input("digite um numero"))
  
-print ("o antecessor e ", numero-1)
+print ("o antecessor é ", numero-1)
